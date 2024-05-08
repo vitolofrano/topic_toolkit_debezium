@@ -8,7 +8,8 @@ This Python script facilitates the management of Kafka topics specifically desig
 - **Delete Topics**: Remove Kafka topics based on specific conditions.
 - **Custom Configurations**: Users can specify the number of partitions, compression type, and cleanup policies for each topic.
 - **Interactive Interface**: The script uses command-line prompts to gather database connection settings and topic configurations.
-
+- **Customizable slug**: the script allows us to customize the topic prefix used by debezium ($slug) via the command line and also the slang for the dbname in case we changed it in configuration following the pattern
+($slang.$slug.$tablename.v1).
 ## Prerequisites
 
 Ensure you have Python 3.x installed along with the following Python packages:
